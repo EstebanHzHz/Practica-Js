@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/templates/style.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Convercion de Peso => Dolar | Dolar => Peso</legend>
+        <form action="">
+            <table>
+                <tr>
+                    <td style="text-align: right;" colspan="2">
+                        <label for="rpeso" class="dark-label">Peso</label><input type="radio" name="rpeso" id="rpeso" class="dark-radio" checked>
+                        <label for="rdolar" class="dark-label">Dolar</label><input type="radio" name="rdolar" id="rdolar" class="dark-radio">
+                    </td>
+                </tr> 
+                <tr>
+                    <td><Label for="peso" id="labelPeso">Peso</Label><br><input type="text" name="peso" id="peso"></td>
+                    <td rowspan="2"><label for="tc">Tasa de cambio</label><br><input type="text" name="tc" id="tc"></td>
+                </tr>
+                <tr>
+                    <td><Label for="dolar" id="labelDolar">Dolar</Label><br><input type="text" name="dolar" id="dolar"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Convertir" id="convert"></td>
+                    <td><input type="button" value="Limpiar" id="clean"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
+
+<!--17.29-->

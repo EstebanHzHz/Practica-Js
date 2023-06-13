@@ -1,0 +1,94 @@
+body {
+    background-color: #202124;
+    color: #ffffff;
+}
+
+fieldset {
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-bottom: none;
+}
+
+legend {
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.dark-radio {
+    /* Oculta los radios por defecto */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Establece un tamaño adecuado para los radios */
+    width: 20px;
+    height: 20px;
+    /* Establece los estilos personalizados para los radios en el tema oscuro */
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    outline: none;
+}
+  
+.dark-radio:checked {
+    /* Establece el estilo para el radio seleccionado */
+    background-color: #ff9900;
+    border: 2px solid #ffffff;
+}
+  
+.dark-label {
+    /* Establece los estilos para las etiquetas de los radios en el tema oscuro */
+    display: inline-block;
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+  
+.dark-label:hover {
+    /* Establece el estilo para las etiquetas de los radios cuando se les hace hover */
+    color: #ff9900;
+}
+
+label {
+    font-size: 20pt;
+}
+
+input[type="text"] {
+    width: 1in;
+    padding: 8px;
+    border: none;
+    background-color: #303136;
+    color: #ffffff;
+    transition: width ease 1s;
+}
+
+input[type="text"]:focus {
+    width: 3in;
+}
+
+input[type="button"] {
+    padding: 8px 20px;
+    border: none;
+    background-color: #4e5155;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #616466;
+}
